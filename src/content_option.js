@@ -13,7 +13,7 @@ const introdata = {
     animated: {
         first: "Think. Code. Create.",
         second: "Learn. Build. Grow.",
-        third: "Dream. Develop. Deliver.",
+        third: "Dreammmmm. Develop. Deliver.",
     },
     description: "Full-Stack Software Developer with 3+ years of expertise in Java, Spring Boot, React, Python, and microservices",
     your_img_url: "",
