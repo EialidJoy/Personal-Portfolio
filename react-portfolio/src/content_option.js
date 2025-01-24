@@ -74,27 +74,27 @@ const skills = [{
 const dataportfolio = [{
         img: "../Pictures/radar data viewer.webp",
         description: "Radar Data Viewer",
-        link: "#",
+        link: "https://github.com/EialidJoy/RadarDataViewerApp",
     },
     {
         img: "../Pictures/Todo List.png",
         description: "Personal TODO",
-        link: "#",
+        link: "https://github.com/EialidJoy/ToDOMate",
     },
     {
         img: "../Pictures/Movie Image.jpg",
         description: "Movie Ratings using Microservices",
-        link: "#",
+        link: "https://github.com/EialidJoy/Movie-Info-Dockerized",
     },
     {
         img: "../Pictures/Resume.webp",
         description: "Personal Resume",
-        link: "#",
+        link: "https://github.com/EialidJoy/resume",
     },
     {
         img: "../Pictures/Authentication.webp",
         description: "Spring Authentication",
-        link: "#",
+        link: "https://github.com/EialidJoy/-Login-page-using-spring-core-spring-MVC-spring-security-JDBC-JSP-JSTL",
     }
 ];
 
