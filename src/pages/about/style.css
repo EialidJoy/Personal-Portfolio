@@ -12,9 +12,9 @@
 }
 
 .downloadButton {
-    color: white;
+    color: var(--text-color);
     background-color: transparent;
-    border: 2px solid #00bfff; /* Soft blue border */
+    border: 2px solid var(--text-color-3);
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -24,12 +24,12 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-  
+
 .downloadButton:hover {
-    background-color: #00bfff; /* Soft blue background */
-    color: black; /* Text changes to black */
+    background-color: var(--text-color-3);
+    color: #fff;
     transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 191, 255, 0.3); /* Blue glow */
+    box-shadow: 0 4px 15px rgba(0, 191, 165, 0.3);
 }
   
 .downloadButton:active {
@@ -75,11 +75,17 @@
     0% {
         width: 0%;
     }
+    100% {
+        width: 100%;
+    }
 }
 
 @keyframes animate-positive {
     0% {
         width: 0%;
+    }
+    100% {
+        width: 100%;
     }
 }
 

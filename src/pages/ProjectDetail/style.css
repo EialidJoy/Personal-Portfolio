@@ -1,0 +1,245 @@
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.back-link:hover {
+    opacity: 1;
+    color: var(--text-color-3);
+    text-decoration: none;
+}
+
+.pd-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pd-badge {
+    background: rgba(0, 191, 90, 0.15);
+    color: #00bf5a;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.pd-category {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.pd-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.pd-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pd-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.pd-section-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--text-color);
+}
+
+.pd-summary {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.pd-responsibilities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pd-responsibilities li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+.pd-check-icon {
+    color: #00bf5a;
+    margin-top: 4px;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+}
+
+.pd-tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pd-tech-pill {
+    font-size: 0.82rem;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--text-color-3);
+    color: var(--text-color-3);
+    font-weight: 500;
+}
+
+.pd-skill-pill {
+    font-size: 0.82rem;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    opacity: 0.7;
+}
+
+.pd-company-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 12px;
+    background: var(--primary-color);
+}
+
+.pd-company-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.pd-company-client {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.pd-note-top {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    background: rgba(255, 183, 77, 0.12);
+    border: 1px solid rgba(255, 183, 77, 0.35);
+}
+
+.pd-note-top-icon {
+    color: #ffb74d;
+    flex-shrink: 0;
+    font-size: 1rem;
+}
+
+.pd-note-top p {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: #ffb74d;
+    font-weight: 500;
+}
+
+[data-theme="light"] .pd-note-top {
+    background: rgba(230, 126, 0, 0.08);
+    border: 1px solid rgba(230, 126, 0, 0.3);
+}
+
+[data-theme="light"] .pd-note-top-icon {
+    color: #e67e00;
+}
+
+[data-theme="light"] .pd-note-top p {
+    color: #e67e00;
+}
+
+.pd-note-top-research {
+    background: rgba(100, 180, 255, 0.12);
+    border: 1px solid rgba(100, 180, 255, 0.35);
+}
+
+.pd-note-top-research .pd-note-top-icon {
+    color: #64b5f6;
+}
+
+.pd-note-top-research p {
+    color: #64b5f6;
+}
+
+[data-theme="light"] .pd-note-top-research {
+    background: rgba(30, 120, 210, 0.08);
+    border: 1px solid rgba(30, 120, 210, 0.3);
+}
+
+[data-theme="light"] .pd-note-top-research .pd-note-top-icon {
+    color: #1565c0;
+}
+
+[data-theme="light"] .pd-note-top-research p {
+    color: #1565c0;
+}
+
+.pd-badge-research {
+    background: rgba(100, 180, 255, 0.15);
+    color: #64b5f6;
+}
+
+.pd-github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 2px solid var(--text-color-3);
+    border-radius: 8px;
+    color: var(--text-color-3);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.pd-github-link:hover {
+    background: var(--text-color-3);
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.02);
+}
+
+@media (max-width: 576px) {
+    .pd-title {
+        font-size: 1.6rem;
+    }
+
+    .pd-meta-row {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
